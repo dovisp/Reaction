@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .image-btn {
+      background: none;
+      border: none;
+      padding: 0;
+    }
+    .image-btn img {
+      display: block; /* to remove extra space below image */
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funi mygtukas</title>
+  </head>
+  <body>
+    <h1>Paspausk, kai žinosi atsakymą!</h1>
+    <button id="clickButton" class="image-btn">
+      <img src="/img/Button_Icon_Red.svg" />
+    </button>
+    <button id="backButton">Atgal</button>
+    <button id="lejaButton" style="display: none">Lėjos mygtukas</button>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="click.js"></script>
+  </body>
+</html>
